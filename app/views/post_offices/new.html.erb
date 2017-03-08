@@ -1,0 +1,12 @@
+<h1>Post office</h1>
+
+<%= form_for :post_office, url: post_offices_path do |f| %>
+  <p>
+    <%= f.label :postcode %><br>
+    <%= f.text_field :postcode %>
+  </p>
+
+  <p>
+    <%= f.submit "track" %>
+  </p>
+<% end %>

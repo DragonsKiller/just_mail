@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>This letter was written on the site JustMail by <%= @email.user_full_name %></h1>
+    <p>
+      <%= @email.text %>
+    </p>
+    <p>
+      Dear <%= @email.addressee %>, please join us and have a great day!
+    </p>
+  </body>
+</html>

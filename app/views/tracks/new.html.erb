@@ -1,0 +1,12 @@
+<h1>Track Mail</h1>
+
+<%= form_for :track, url: tracks_path do |f| %>
+  <p>
+    <%= f.label :track_number %><br>
+    <%= f.text_field :track_number %>
+  </p>
+
+  <p>
+    <%= f.submit "track" %>
+  </p>
+<% end %>
